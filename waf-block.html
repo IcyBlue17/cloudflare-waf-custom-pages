@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>IcyBlog WAF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 360px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+        @media (max-width: 600px) {
+            body {
+                position: absolute;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 <body>
-
+<h1>&#9995; 您已被禁止访问该网站</h1>
+<p style="margin-top: 30px">您由于一些原因被禁止访问本站，如果您坚持认为这不是您的问题，请等待一会后刷新</p>
+<p style="margin-top: 30px">客户端iP信息::CLIENT_IP::，::GEO::，Ray ID：::RAY_ID::</p>
+<p style="text-align: center; position: absolute; bottom: 0;">&copy; 2023 IcyBlog. All rights reserved. 性能和安全性由Cloudflare提供。</p>
 </body>
 </html>
