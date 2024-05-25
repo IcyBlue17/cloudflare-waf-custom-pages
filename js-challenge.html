@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>IcyBlog WAF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 360px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+        @media (max-width: 600px) {
+            body {
+                position: absolute;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>&#9995; 正在进行质询，请稍等片刻！</h1>
+::IM_UNDER_ATTACK_BOX::
+<p style="margin-top: 30px">为了保证本网站的安全，我们需要进行人机验证。感谢您的理解和配合。</p>
+<p style="margin-top: 30px">客户端iP信息::CLIENT_IP::，::GEO::，Ray ID：::RAY_ID::</p>
+<p style="text-align: center; position: absolute; bottom: 0;">&copy; 2023 IcyBlog. All rights reserved. 性能和安全性由Cloudflare提供。</p>
+</body>
+</html>
